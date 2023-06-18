@@ -1,8 +1,11 @@
-# minecraft-assets-processor
+# Minecraft Assets Processor
 
-## **Windows專用**
+## Windows only
 
-處理[`%appdata%/.minecraft/assets`](file:///%appdata%/.minecraft/assets)裡的資源
+用於倒出`%appdata%/.minecraft/assets`的資源並加以整理
 
-[`./src/main.py`](./src/main.py) -> 本人製作  
-[`./src/v2.py`](./src/v2.py) -> [猴子](https://github.com/a3510377)提供
+### 版本
+- 芒果版
+  - [src/main.py](src/mango.py)
+- [猴子](https://github.com/a3510377)版
+  - [src/monkey.py](src/monkey.py)
